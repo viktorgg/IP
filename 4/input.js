@@ -2,8 +2,8 @@ regExps = {
 "exercise_1": /[A-Z]+[a-z]+/,
 "exercise_2": /088[^0-]{7}/,
 "exercise_3": /[^0-1]+/,
-"exercise_4": /^[^\._0-9][a-zA-Z0-9\._]{2,13}$/,
-"exercise_5": /[1|9][1-9][1|9][1-9]?/,
+"exercise_4": /^[^0-9][a-zA-Z0-9\._]{2,13}$/,
+"exercise_5": /[1|9][^1][^1][^1]?$/,
 "exercise_6": /class=['|"][a-zA-Z\s]*['|"]/
 };
 cssSelectors = {
